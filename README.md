@@ -47,6 +47,7 @@ Block #1 is mined.
  }
 
 6.http://127.0.0.1:8000/chain
+
 {
     "length": 3,
     "chain": [
