@@ -1,8 +1,12 @@
 # POC
 Simple Aadhar Blockchain POC using Python
+𝐀𝐚𝐝𝐡𝐚𝐫 𝐩𝐫𝐢𝐯𝐚𝐜𝐲 𝐛𝐥𝐨𝐜𝐤𝐜𝐡𝐚𝐢𝐧 is linked to Traffic violation as a small proof of concept. Blockchain technology in simple words is a digital database where data is stored in blocks that are linked together to form a chain. The data is that is secure, immutable, and decentralized. It is mainly used for secure transactions without any third-party involvement in between.
+
+So, this POC has the Aadhar ID as the key for the user identification and his/her Traffic Violation data. The data in every block is secured and connected with each other using hashing/fingerprinting (sha256) technology which protects it from being tampered by an unauthorized person. 
 
 This is a web flask server run locally.
-The POSTMAN REST Client is configured to send the following request
+The POSTMAN REST Client is configured to send the user and traffic violation details to the DB.
+
 
 1.POST
 http://127.0.0.1:8000/new_transaction
